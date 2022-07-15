@@ -6,7 +6,7 @@ using Bakery;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BreadTests : IDisposable
+  public class BreadTests : IDisposable;
   {
     // Test methods go here
     [TestMethod]
