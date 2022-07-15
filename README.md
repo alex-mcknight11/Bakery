@@ -2,7 +2,7 @@
 
 #### By _**Alex McKnight**_  
 
-#### _{Brief description of application}_  
+#### _{A C# Application for a Bakery}_  
 
 ---
 ## Technologies Used
@@ -13,7 +13,7 @@
 ---
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_{A C# application for a bakery. The app can let users select an option for a loaf of bread and a pastry, and calculate the discounts associated with them.}_
 
 ---
 ## Setup/Installation Requirements
@@ -50,5 +50,9 @@ This program was built using *`Microsoft .NET SDK 5.0.401`*, and may not be comp
 ---
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _No known issues_
+
+## License
+
+MIT
+Copyright (c) 7/15/22 Alex McKnight
