@@ -6,8 +6,13 @@ using Bakery;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BreadTests : IDisposable;
+  public class BreadTests : IDisposable
   {
+    public void Dispose()
+    {
+      Bread.ClearAll();
+    }
+  
     // Test methods go here
     [TestMethod]
     public void BreadConstructor_CreatesBread_Bread()

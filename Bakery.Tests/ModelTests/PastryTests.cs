@@ -6,17 +6,19 @@ using Bakery;
 namespace Bakery.Tests
 {
   [TestClass]
-  public class PastryTests : IDisposable;
+  public class PastryTests : IDisposable
   {
+    public void Dispose()
+    {
+      Pastry.ClearAll();
+    }
+  
     // Test methods go here
     [TestMethod]
     public void PastryConstructor_CreatesPastry_Pastry()
     {
       Pastry newPastry = new Pastry(1, "Bear Claw");
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
-
-      // any necessary logic to prep for test; instantiating new classes, etc.
-      Assert.AreEqual("Behavior is behaving", ClassName.Method("Behavior"));
     }
   }
 }
