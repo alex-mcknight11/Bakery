@@ -8,6 +8,11 @@ namespace Bakery
 
     public int PastryCount { get; set; }
     public string PastryType { get; set; }
+    public Pastry (int Count, string Type)
+    {
+      PastryCount = Count;
+      PastryType = Type;
+    }
     private static List<Pastry> _instances = new List<Pastry>{};
 
     public static int PastryPrice(int pastryCount)
