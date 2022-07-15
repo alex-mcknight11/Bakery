@@ -20,5 +20,12 @@ namespace Bakery.Tests
       Pastry newPastry = new Pastry(1, "Bear Claw");
       Assert.AreEqual(typeof(Pastry), newPastry.GetType());
     }
+    [TestMethod]
+    public void PastryCount_ReturnPastryCount_Int()
+    {
+      Pastry newPastry = new Pastry(1, "Croissant");
+      int pastryNumber = newPastry.PastryCount;
+      Assert.AreEqual(pastryNumber,1);
+    }
   }
 }

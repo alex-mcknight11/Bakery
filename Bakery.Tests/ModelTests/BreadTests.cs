@@ -20,5 +20,12 @@ namespace Bakery.Tests
       Bread newBread = new Bread(1, "White");
       Assert.AreEqual(typeof(Bread), newBread.GetType());
     }
+    [TestMethod]
+    public void BreadCount_ReturnBreadCount_Int()
+    {
+      Bread newBread = new Bread(1, "White");
+      int BreadNumber = newBread.BreadCount;
+      Assert.AreEqual(BreadNumber, 1);
+    }
   }
 }
