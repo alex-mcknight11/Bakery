@@ -5,7 +5,10 @@ namespace Bakery
 {
   public class Bread
   {
-    // properties, constructors, methods, etc. go here
+    public int BreadCount { get; set; }
+    public string BreadType { get; set; }
+    private static List<Bread> _instances = new List<Bread>{};
+    
     public static int BreadPrice(int breadCount)
     {
       int breadprice = 0;
