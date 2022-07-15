@@ -6,7 +6,7 @@ namespace Bakery
   public class Pastry
   {
     // properties, constructors, methods, etc. go here
-    public static string Method(string behavior)
+    public static int PastryPrice(int pastryCount)
     {
       return behavior + " is behaving";
     }

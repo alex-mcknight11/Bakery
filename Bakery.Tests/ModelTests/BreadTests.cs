@@ -1,10 +1,12 @@
+using System;
+using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Bakery;
 
 namespace Bakery.Tests
 {
   [TestClass]
-  public class BreadTests
+  public class BreadTests : IDisposable
   {
     // Test methods go here
     [TestMethod]
